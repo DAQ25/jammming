@@ -1,0 +1,59 @@
+.Playlist {
+    width:35%;
+    height:55%;
+    justify-self:right;
+    border: 5px;
+    border-color: white;
+    background-color: aliceblue;
+    position: absolute;
+    right: 10%;
+    border-radius: 8px;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+        border-radius: 8px;
+        background: lightblue;
+      }
+}
+
+.PlaylistNameInput {
+    margin-top: 10px;
+    width: 370px;
+    padding: 10px 5px;
+    color: white;
+    background-color: gray;
+    font-weight:lighter;
+    font-size: larger;
+    border: 0;
+    border-radius: 8px;
+    &:focus {
+      outline: 0;
+    }
+    &:hover {
+        background: green;
+        color:white;
+    }
+  }
+
+.SaveButton {
+    position: relative;
+    top:10px;
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    color: #fff;
+    background: black;
+    border:none;
+    border-left: 1px solid #fff;
+    border-radius: 8px;
+    &:hover {
+        background: green;
+        color:white;
+    }
+    &:active {
+        box-shadow: 0px 0px 12px 0px rgba(225, 225, 225, 1);
+    }
+    &:focus {
+        outline: 0;
+    }
+}

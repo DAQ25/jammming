@@ -1,0 +1,17 @@
+.SearchResults {
+    width:35%;
+    height: 55%;
+    justify-self:right;
+    border: 5px;
+    border-color: white;
+    background-color: aliceblue;
+    position: absolute;
+    left: 10%;
+    border-radius: 8px;
+    overflow-y: scroll;
+    
+    &::-webkit-scrollbar {
+        border-radius: 8px;
+        background:lightblue;
+      }
+}

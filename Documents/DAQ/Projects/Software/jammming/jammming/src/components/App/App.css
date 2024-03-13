@@ -1,5 +1,16 @@
 .App {
   text-align: center;
+  padding: 1% 17% 30% 17%;
+  background-image: url('./images/cerveceriaMXL.jpeg');
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-weight: 500;
+
+  h1{
+    font-size: 80px;
+  }
+  
 }
 
 .App-logo {
